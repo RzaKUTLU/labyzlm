@@ -13,7 +13,7 @@ from io import BytesIO
 import re
 import time
 
-# Talep numarası oluşturma fonksiyonu - EN BAŞA EKLENDİ
+# Talep numarası oluşturma fonksiyonu 
 def generate_talep_no():
     try:
         conn = sqlite3.connect('laboratuvar.db')
@@ -50,7 +50,7 @@ def generate_talep_no():
 try:
     from streamlit_option_menu import option_menu
 except ImportError:
-    st.error("streamlit-option-menu modülü eksik. Lütfen 'pip install streamlit-option-menu' komutunu çalıştırın.")
+    st.error("streamlit-option-menu modülü eksik.'pip install streamlit-option-menu' komutunu çalıştırın.")
     st.stop()
 
 # Uygulama dizinini Python yoluna ekle
@@ -97,7 +97,7 @@ BIRIMLER = [
     "kutu"
 ]
 
-# Veritabanı bağlantı fonksiyonlarını en başa taşıyalım (import'lardan sonra)
+# Veritabanı bağlantı fonksiyonları
 def get_database_connection():
     """Veritabanı bağlantısını kontrol eder ve döndürür"""
     try:
