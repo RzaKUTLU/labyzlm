@@ -5,7 +5,12 @@
 [![SQLite](https://img.shields.io/badge/SQLite-3-green.svg)](https://sqlite.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Labyzlm**, laboratuvarlar için geliştirilmiş kapsamlı bir numune analiz ve yönetim sistemidir. Modern web teknolojileri kullanılarak geliştirilmiş olan bu sistem, numune taleplerinden analiz sonuçlarına kadar tüm süreçleri dijitalleştirir.
+**Laboratuvar Yönetim Sistemi**, laboratuvarlar için geliştirilmiş kapsamlı bir numune analiz ve yönetim sistemidir. Modern web teknolojileri kullanılarak geliştirilmiş olan bu sistem, numune taleplerinden analiz sonuçlarına kadar tüm süreçleri dijitalleştiren bir demodur.
+
+## 🚀 Canlı Demo
+
+**Uygulamayı hemen deneyin:** [https://labyzlm-rizakutlu.streamlit.app/](https://labyzlm-rizakutlu.streamlit.app/)
+
 
 ## 📋 İçindekiler
 
